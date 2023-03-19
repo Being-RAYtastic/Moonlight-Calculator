@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Shantell Sans', cursive;;
+}
+body {
+    background: #0e1217;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80vw;
+}
+input {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto 1rem auto;
+    padding: 1rem;
+    width: 50%;
+    background-color: #1c1f26;
+    outline: none;
+    border: 2px solid #23282f;
+    color: white;
+    transition: 0.3s ease-in-out;
+    font-size: larger;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+    border-color:#505765;
+}
+input :placeholder-shown{
+    color: lightgrey;
+}
+
+#myProgress {
+    width: 100%;
+    background-color:#505765;
+    border-radius: 2px;
+}
+
+#percent {
+    width: 10%;
+    height: 40px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: crimson;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: 900  ;
+    transition: background 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+
+button {
+    background-color: #ce3df3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 2rem auto;
+    padding: 1rem 2rem 1rem 2rem;
+    outline:none;
+    border: none;
+    transition: background 0.1s ease-in;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 6px;
+}
+button:hover {
+    background-color: deeppink;
+}
+button:active {
+    background-color: crimson;
+}
+#status {
+    color: white;
+}
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width:700px) { 
+    input {
+        width: 100%;
+    }
+}
