@@ -40,4 +40,4 @@ function clearBar() {
     percent_el.innerHTML = ""
 }
 
-//  || otherName_value == "KRISHNA" || yourName_value == "KRISHNA CHAWLA" || otherName_value == "KRISHNA CHAWLA"
+
