@@ -84,6 +84,9 @@ button:active {
 }
 #status {
     color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
 }
 
 /* RESPONSIVE CSS */

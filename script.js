@@ -19,7 +19,7 @@ function calculate() {
             percent_el.innerHTML = width + "%"
         }
         else {
-            width = Math.floor(Math.random() * 100)
+            width = Math.floor(Math.random() * 101)
             //percent_el.innerHTML = randomVal + "%"
             percent_el.style.width = width + "%"
             percent_el.innerHTML = width  + "%"
