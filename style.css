@@ -31,9 +31,11 @@ input {
     font-size: larger;
     border-radius: 5px;
 }
+input :hover {
+    border-color:#505765
+}
 input:focus{
-    outline: none;
-    border-color:#505765;
+    border-color: palevioletred
 }
 input :placeholder-shown{
     color: lightgrey;

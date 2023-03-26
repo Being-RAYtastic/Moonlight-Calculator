@@ -24,20 +24,24 @@ function calculate() {
             percent_el.style.width = width + "%"
             percent_el.innerHTML = width  + "%"
         }
+        result_review()
     }
+
+
+}
+
+
+function result_review(){
     if(width == 100) status_el.innerHTML = 'Looks like you are Lucky'
     else if (width >= 60 && width < 100) status_el.innerHTML = 'Pretty Good Chances'
     else if (width == 50 && width < 60) status_el.innerHTML = 'It is either yes or no'
     else if (width >= 25 && width < 50) status_el.innerHTML = 'Low Chances'
     else if (width >= 0 && width < 25) status_el.innerHTML = 'Unlucky, looks like you have no chance at all'
-
 }
-
-
-
 function clearBar() {
     percent_el.style.width = 0
     percent_el.innerHTML = ""
+    status_el.innerHTML = ""
 }
 
 
