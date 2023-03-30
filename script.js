@@ -25,6 +25,9 @@ function calculate() {
             percent_el.innerHTML = width  + "%"
         }
         result_review()
+
+        console.log(yourName_value, otherName_value)
+        saveNames(yourName_value, otherName_value)
     }
 
 
@@ -43,5 +46,7 @@ function clearBar() {
     percent_el.innerHTML = ""
     status_el.innerHTML = ""
 }
+
+
 
 

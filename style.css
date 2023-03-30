@@ -15,7 +15,7 @@ body {
 .container {
     width: 80vw;
 }
-input {
+.input_box {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -31,13 +31,13 @@ input {
     font-size: larger;
     border-radius: 5px;
 }
-input :hover {
+.input_box:hover {
     border-color:#505765
 }
-input:focus{
+.input_box:focus{
     border-color: palevioletred
 }
-input :placeholder-shown{
+.input_box:placeholder-shown{
     color: lightgrey;
 }
 
@@ -63,7 +63,7 @@ input :placeholder-shown{
     transition: 0.2s ease-in;
 }
 
-button {
+.calc_button {
     background-color: #ce3df3;
     display: flex;
     justify-content: center;
@@ -78,10 +78,10 @@ button {
     font-size: larger;
     border-radius: 6px;
 }
-button:hover {
+.calc_button:hover {
     background-color: deeppink;
 }
-button:active {
+.calc_button:active {
     background-color: crimson;
 }
 #status {

@@ -15,16 +15,21 @@
 <body>
 
     <div class="container">
-            <input type="text" id="yourName" onchange="clearBar()" placeholder="Name 1">
-            <input type="text" id="otherName" onchange="clearBar()" placeholder="Name 2">
-            <button id="calc_button" onclick="calculate()">Calculate</button>
-        
+            <form action="">
+            <input type="text" id="yourName" onchange="clearBar()" placeholder="Name 1" class="input_box">
+            <input type="text" id="otherName" onchange="clearBar()" placeholder="Name 2" class="input_box">
+            <input type="button" value="Calculate" class="calc_button" onclick="calculate()">
+            <!-- <button type="submit" class="calc_button" onclick="calculate()">Calculate</button> -->
+            </form>    
+
         <div id="myProgress">
             <div id="percent"></div>
         </div>
         <p id="status"></p>
     </div>
     
-    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js" defer></script>
+    <script src="firebase.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
