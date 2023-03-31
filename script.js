@@ -14,7 +14,7 @@ function calculate() {
 
     if (!yourName_value == "" && !otherName_value == "" && yourName_value != otherName_value) {
         if(yourName_value == 'KRISHNA' || yourName_value == 'KRISHNA ' || yourName_value == 'KRISHNA CHAWLA' || yourName_value == 'KRISHNA CHAWALA' || yourName_value == 'KRISHNA CHAWALA ' || yourName_value == 'KRISHNA CHAWLA ' || otherName_value == 'KRISHNA' || otherName_value == 'KRISHNA ' || otherName_value == 'KRISHNA CHAWLA' || otherName_value == 'KRISHNA CHAWLA ' || otherName_value == 'KRISHNA CHAWALA' || otherName_value == 'KRISHNA CHAWALA ') {   
-            width = Math.floor(Math.random() * 20)
+            width = Math.floor(Math.random() * 25)
             percent_el.style.width = width + "%"
             percent_el.innerHTML = width + "%"
         }
