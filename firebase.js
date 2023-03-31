@@ -24,12 +24,12 @@ const app = firebase.initializeApp(firebaseConfig)
 // reference database
 const moonlightCalculatorDB = firebase.database().ref("moonlight-calculator")
 
-const saveNames = (yourNameVal, otherNameVal) => {
+const saveNames = (yourNameVal, otherNameVal, percentageVal) => {
     var newNameForm = moonlightCalculatorDB.push()
     
     newNameForm.set({
         name1: yourNameVal,
         name2: otherNameVal,
-        
+        percentage: percentageVal + "%",
     })
 }

@@ -27,7 +27,7 @@ function calculate() {
         result_review()
 
         //console.log(yourName_value, otherName_value)
-        saveNames(yourName_value, otherName_value)
+        saveNames(yourName_value, otherName_value, width)
     }
 
 
