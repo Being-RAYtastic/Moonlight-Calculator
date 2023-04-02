@@ -13,14 +13,20 @@ function calculate() {
     const otherName_value = otherName.value.toUpperCase()
 
     if (!yourName_value == "" && !otherName_value == "" && yourName_value != otherName_value) {
-        if(yourName_value == 'KRISHNA' || yourName_value == 'KRISHNA ' || yourName_value == 'KRISHNA CHAWLA' || yourName_value == 'KRISHNA CHAWALA' || yourName_value == 'KRISHNA CHAWALA ' || yourName_value == 'KRISHNA CHAWLA ' || otherName_value == 'KRISHNA' || otherName_value == 'KRISHNA ' || otherName_value == 'KRISHNA CHAWLA' || otherName_value == 'KRISHNA CHAWLA ' || otherName_value == 'KRISHNA CHAWALA' || otherName_value == 'KRISHNA CHAWALA ') {   
+        if(yourName_value == 'KRISHNA' || yourName_value == 'KRISHNA '
+        || yourName_value == 'KRISHNA CHAWLA' || yourName_value == 'KRISHNA CHAWLA ' 
+        || otherName_value == 'KRISHNA' || otherName_value == 'KRISHNA ' 
+        || otherName_value == 'KRISHNA CHAWLA' || otherName_value == 'KRISHNA CHAWLA ' 
+        || yourName_value == 'DENIS' || yourName_value == 'DENIS ' 
+        || yourName_value == 'DENIS CHAWLA' || yourName_value == 'DENIS CHAWLA '
+        || otherName_value == 'DENIS' || otherName_value == 'DENIS ' 
+        || otherName_value == 'DENIS CHAWLA' || otherName_value == 'DENIS CHAWLA ' ) {   
             width = Math.floor(Math.random() * 25)
             percent_el.style.width = width + "%"
             percent_el.innerHTML = width + "%"
         }
         else {
             width = Math.floor(Math.random() * 101)
-            //percent_el.innerHTML = randomVal + "%"
             percent_el.style.width = width + "%"
             percent_el.innerHTML = width  + "%"
         }
@@ -47,6 +53,6 @@ function clearBar() {
     status_el.innerHTML = ""
 }
 
-
+// (yourName_value == 'KRISHNA' || yourName_value == 'KRISHNA ' || yourName_value == 'KRISHNA CHAWLA' || yourName_value == 'KRISHNA CHAWALA' || yourName_value == 'KRISHNA CHAWALA ' || yourName_value == 'KRISHNA CHAWLA ' || otherName_value == 'KRISHNA' || otherName_value == 'KRISHNA ' || otherName_value == 'KRISHNA CHAWLA' || otherName_value == 'KRISHNA CHAWLA ' || otherName_value == 'KRISHNA CHAWALA' || otherName_value == 'KRISHNA CHAWALA ')
 
 
