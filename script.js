@@ -20,7 +20,9 @@ function calculate() {
         || yourName_value == 'DENIS' || yourName_value == 'DENIS ' 
         || yourName_value == 'DENIS CHAWLA' || yourName_value == 'DENIS CHAWLA '
         || otherName_value == 'DENIS' || otherName_value == 'DENIS ' 
-        || otherName_value == 'DENIS CHAWLA' || otherName_value == 'DENIS CHAWLA ' ) {   
+        || otherName_value == 'DENIS CHAWLA' || otherName_value == 'DENIS CHAWLA '
+        || otherName_value == 'DENNIS' || otherName_value == 'DENNIS'
+        || otherName_value == 'DENNIS CHAWLA' || otherName_value == 'DENNIS CHAWLA ') {   
             width = Math.floor(Math.random() * 25)
             percent_el.style.width = width + "%"
             percent_el.innerHTML = width + "%"
