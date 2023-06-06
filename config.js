@@ -5,7 +5,7 @@ const FIREBASE_AUTH_DOMAIN = ""
 
 const FIREBASE_DATABASE_URL = ""      // Realtime Database URL
 
-const FIREBASE_PROJECT_ID = "moonlight-calculator"
+const FIREBASE_PROJECT_ID = ""
 
 const FIREBASE_STORAGE_BUCKET = ""
 
