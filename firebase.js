@@ -1,6 +1,3 @@
-// import dotenv from 'https://cdn.jsdelivr.net/npm/dotenv@8.2.0'
-// require("dotenv").config()
-
 const firebaseConfig = {
 
     apiKey: FIREBASE_API_KEY,
@@ -25,7 +22,7 @@ const firebaseConfig = {
 const app = firebase.initializeApp(firebaseConfig)
 
 // reference database
-const moonlightCalculatorDB = firebase.database().ref("moonlight-calculator")
+const moonlightCalculatorDB = firebase.database().ref(firebaseConfig.projectId)
 
 const saveNames = (yourNameVal, otherNameVal, percentageVal) => {
     let newNameForm = moonlightCalculatorDB.push()
