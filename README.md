@@ -8,7 +8,7 @@ Made using:
 
 # How to Use
 <ol>
-  <li> Go to Firebase Console and Create a new Project </li>
+  <li> Go to [Firebase Console](https://console.firebase.google.com/) and Create a new Project </li>
   <li> Then create a REALTIME DATABASE </li>
   <li> Fill the FIREBASE CREDENTIALS in your config.js </li>
 </ol>
