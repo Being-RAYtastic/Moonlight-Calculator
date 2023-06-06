@@ -1,20 +1,23 @@
+// import dotenv from 'https://cdn.jsdelivr.net/npm/dotenv@8.2.0'
+// require("dotenv").config()
+
 const firebaseConfig = {
 
-    apiKey: "AIzaSyCyiXQNczRyfO03rUBEe_t6CMtnC1EhCPE",
+    apiKey: FIREBASE_API_KEY,
 
-    authDomain: "moonlight-calculator.firebaseapp.com",
+    authDomain: FIREBASE_AUTH_DOMAIN,
 
-    databaseURL: "https://moonlight-calculator-default-rtdb.firebaseio.com",
+    databaseURL: FIREBASE_DATABASE_URL,
 
-    projectId: "moonlight-calculator",
+    projectId: FIREBASE_PROJECT_ID,
 
-    storageBucket: "moonlight-calculator.appspot.com",
+    storageBucket: FIREBASE_STORAGE_BUCKET,
 
-    messagingSenderId: "232110604220",
+    messagingSenderId: MESSAGING_SENDER_ID,
 
-    appId: "1:232110604220:web:9ab0af524ba767ac4535b9",
+    appId: FIREBASE_APP_ID,
 
-    measurementId: "G-MCM76233WH"
+    measurementId: MEASUREMENT_ID
 
 };
 
