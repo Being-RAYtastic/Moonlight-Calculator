@@ -1,5 +1,5 @@
 # Moonlight-Calculator
-Love Calculator but with a twist.
+Love Calculator but with a twist. You can see what what names the person wrote in the love calculator, the percentage, and the date and time too, in your Firebase Realtime Database.
 Made using:
 - HTML
 - CSS
