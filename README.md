@@ -3,7 +3,7 @@ Love Calculator but with a twist. You can see what what names the person wrote i
 Made using:
 - HTML
 - CSS
-- Javascript
+- Vanilla Javascript
 - Firebase Database
 
 # How to Use
