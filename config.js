@@ -3,7 +3,7 @@ const FIREBASE_API_KEY = ""
 
 const FIREBASE_AUTH_DOMAIN = ""
 
-const FIREBASE_DATABASE_URL = "
+const FIREBASE_DATABASE_URL = ""
 
 const FIREBASE_PROJECT_ID = "moonlight-calculator"
 
