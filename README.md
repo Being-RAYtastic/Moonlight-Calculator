@@ -7,11 +7,9 @@ Made using:
 - Firebase Database
 
 # How to Use
-<ol>
-  <li> Go to [Firebase Console](https://console.firebase.google.com/)  and Create a new Project </li>
-   <li> Then create a REALTIME DATABASE </li>
-  <li> Fill the FIREBASE CREDENTIALS in your config.js </li>
-</ol>
+1.  Go to [Firebase Console](https://console.firebase.google.com/) and Create a new Project
+2.  Then create a REALTIME DATABASE
+3.  Fill the FIREBASE CREDENTIALS in your config.js
 
 
 That's all!
