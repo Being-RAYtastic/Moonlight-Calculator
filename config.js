@@ -1,4 +1,4 @@
-// Your Firebase Crendentials Here
+// Your Firebase Credentials Here
 const FIREBASE_API_KEY = ""
 
 const FIREBASE_AUTH_DOMAIN = ""
