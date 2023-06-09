@@ -24,6 +24,8 @@ const app = firebase.initializeApp(firebaseConfig)
 // reference database
 const moonlightCalculatorDB = firebase.database().ref(firebaseConfig.projectId)
 
+
+// function to save names in the database
 const saveNames = (yourNameVal, otherNameVal, percentageVal) => {
     let newNameForm = moonlightCalculatorDB.push()
     
@@ -35,6 +37,7 @@ const saveNames = (yourNameVal, otherNameVal, percentageVal) => {
     })
 }
 
+// function to get the local date&time (so that you can see that at what time the user clicked the Calculate Button)
 function getDate_and_Time() {
     let currentdate = new Date()
     

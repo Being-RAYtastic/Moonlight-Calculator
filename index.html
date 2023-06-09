@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="icon" type="image/x-icon" href="assets/icon.png">
     <link rel="stylesheet" href="style.css">
     <title>MoonLight Calculator</title>
 </head>
@@ -16,16 +16,19 @@
 <body>
 
     <div class="container">
+        <!-- The Input Boxes and the Calculate Button -->
             <form autocomplete="off" action="">
             <input type="text" id="yourName" onchange="clearBar()" placeholder="Your Name" class="input_box">
             <input type="text" id="otherName" onchange="clearBar()" placeholder="Crush's Name" class="input_box">
-            <input type="button" value="Calculate" class="calc_button" onclick="calculate()">
-            <!-- <button type="submit" class="calc_button" onclick="calculate()">Calculate</button> -->
+            <input type="button" value="Calculate" class="calc_button" onclick="calculate()"> <!-- Uses calculate() function from JS -->
             </form>    
 
-        <div id="myProgress">
+        <!-- Progress Bar -->
+            <div id="myProgress">
             <div id="percent"></div>
         </div>
+        
+        <!-- Displays the Status Message after the showing the percentage -->
         <p id="status"></p>
     </div>
     
