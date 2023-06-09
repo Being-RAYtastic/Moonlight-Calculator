@@ -17,7 +17,7 @@ body {
     background-color: var(--bg-color);
     background-image: url("assets/bg.jpg");
     background-size: cover;
-    backdrop-filter: brightness(25%);
+    backdrop-filter: brightness(30%);
     display: flex;
     justify-content: center;
     align-items: center;
